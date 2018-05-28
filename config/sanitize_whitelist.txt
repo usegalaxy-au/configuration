@@ -1,0 +1,2 @@
+toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse/0.7.0.3
+toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/jbrowse_to_standalone/0.7.0

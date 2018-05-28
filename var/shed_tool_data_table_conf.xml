@@ -1,0 +1,1425 @@
+<?xml version="1.0"?>
+<tables>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/jbrowse/836d1aa3e89a/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>jbrowse</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>836d1aa3e89a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/picard/fc288950c3b7/picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>picard</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>fc288950c3b7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/samtools_calmd/33208952b99d/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>samtools_calmd</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>33208952b99d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/24c5d43cb545/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>samtools_stats</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>24c5d43cb545</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/sam_to_bam/f7a0d41036c7/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>sam_to_bam</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>f7a0d41036c7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/samtools_mpileup/583abf29fc8e/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>samtools_mpileup</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>583abf29fc8e</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/sam_pileup/890d97772e2a/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>sam_pileup</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>890d97772e2a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/a8eabd2838f6/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a8eabd2838f6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_gff">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/a8eabd2838f6/all_gff.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a8eabd2838f6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="__dbkeys__">
+        <columns>value, name, len_path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bedtools/a8eabd2838f6/dbkeys.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bedtools</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a8eabd2838f6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_select/227aa321a671/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_select</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>227aa321a671</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_combine/1a6e16391727/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_combine</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>1a6e16391727</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/print_reads/a8b94864fe35/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>print_reads</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>a8b94864fe35</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/indel_realigner/bb0beda6cf83/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>indel_realigner</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>bb0beda6cf83</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_apply_recalibration/350a4d0d1678/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_apply_recalibration</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>350a4d0d1678</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/realigner_target_creator/5b8eaae854da/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>realigner_target_creator</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>5b8eaae854da</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/table_recalibration/30e1dd77e99c/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>table_recalibration</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>30e1dd77e99c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_filtration/da6e2503c62d/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_filtration</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>da6e2503c62d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_recalibrator/cb7cf57397a7/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_recalibrator</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>cb7cf57397a7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_annotations">
+        <columns>value, name, gatk_value, tools_valid_for</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_recalibrator/cb7cf57397a7/gatk_annotations.txt" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_recalibrator</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>cb7cf57397a7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variants_validate/7e1ecaa64370/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variants_validate</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>7e1ecaa64370</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_eval/fbca1c0956d2/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_eval</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>fbca1c0956d2</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/unified_genotyper/66dd4d4c1743/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>unified_genotyper</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>66dd4d4c1743</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_annotations">
+        <columns>value, name, gatk_value, tools_valid_for</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/unified_genotyper/66dd4d4c1743/gatk_annotations.txt" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>unified_genotyper</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>66dd4d4c1743</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_annotator/ae9d0a543e9b/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_annotator</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>ae9d0a543e9b</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_annotations">
+        <columns>value, name, gatk_value, tools_valid_for</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/variant_annotator/ae9d0a543e9b/gatk_annotations.txt" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>variant_annotator</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>ae9d0a543e9b</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/depth_of_coverage/c3f08370fc82/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>depth_of_coverage</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>c3f08370fc82</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk2_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>gatk2</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>84584664264c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk2_annotations">
+        <columns>value, name, gatk_value, tools_valid_for</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/gatk2/84584664264c/gatk2_annotations.txt" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>gatk2</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>84584664264c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix_operations/72bfafe3330b/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_compute_matrix_operations</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>72bfafe3330b</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_profile/aac8444d6681/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_profile</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>aac8444d6681</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_heatmap/512155688d98/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_heatmap</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>512155688d98</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_enrichment/94ca68515826/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_enrichment</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>94ca68515826</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_pca/38e3f226248b/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_pca</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>38e3f226248b</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_matrix/fd1275e01605/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_compute_matrix</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>fd1275e01605</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_pe_fragmentsize/81b1e3e1fc6c/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_bam_pe_fragmentsize</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>81b1e3e1fc6c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_correlation/f264afa9fa6f/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_correlation</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>f264afa9fa6f</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bam_summary/2d466b530754/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_multi_bam_summary</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>2d466b530754</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_compute_gc_bias/29fcfd36e90a/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_compute_gc_bias</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>29fcfd36e90a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_twobit_builder/9946bc39c834/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_twobit_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9946bc39c834</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_twobit_builder/9946bc39c834/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_twobit_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9946bc39c834</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="twobit">
+        <columns>value, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_twobit_builder/9946bc39c834/twobit.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_twobit_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9946bc39c834</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="alignseq_seq">
+        <columns>type, value, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_twobit_builder/9946bc39c834/alignseq.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_twobit_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9946bc39c834</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_multi_bigwig_summary/db940c262830/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_multi_bigwig_summary</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>db940c262830</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_coverage/5d11599b8a7d/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_bam_coverage</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>5d11599b8a7d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bigwig_compare/bfff7454b59a/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_bigwig_compare</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>bfff7454b59a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_correct_gc_bias/a02cfa31e9cb/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_correct_gc_bias</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>a02cfa31e9cb</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_coverage/7e361d147872/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_coverage</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>7e361d147872</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_bam_compare/a1ca9bccc7f2/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_bam_compare</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>a1ca9bccc7f2</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/deeptools_plot_fingerprint/f8fc4e5aff9d/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>deeptools_plot_fingerprint</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>f8fc4e5aff9d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="blastdb">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/blastdb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>ncbi_blast_plus</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="blastdb_p">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/blastdb_p.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>ncbi_blast_plus</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="blastdb_d">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/6f386c5dc4fb/blastdb_d.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>ncbi_blast_plus</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>6f386c5dc4fb</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bwa_mem_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/bwa/53646aaaafef/bwa_mem_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bwa</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>53646aaaafef</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bowtie2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/937aa69e715f/bowtie2_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bowtie2</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>937aa69e715f</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/lastz/60afcc2c1d05/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lastz</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>60afcc2c1d05</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="lastz_seqs">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/lastz_paired_reads/ecc974513241/lastz_seqs.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>lastz_paired_reads</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>ecc974513241</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/pilon/11e5408fd238/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>pilon</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>11e5408fd238</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="hisat2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/hisat2/40e1083a4430/hisat2_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>hisat2</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>40e1083a4430</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="rnastar_index2">
+        <columns>value, dbkey, name, path, with-gtf</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/99b17b74a8cd/rnastar_index2.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>rgrnastar</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>99b17b74a8cd</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="tophat2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/tophat2/16c4255042be/bowtie2_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>tophat2</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>16c4255042be</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bowtie_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/tophat_fusion_post/f83394a2c2da/bowtie_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>tophat_fusion_post</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>f83394a2c2da</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="tophat_fusion_blastdb_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/tophat_fusion_post/f83394a2c2da/tophat_fusion_blastdb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>tophat_fusion_post</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>f83394a2c2da</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/e04dbae2abe0/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cufflinks</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>e04dbae2abe0</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/d3ae7d9c2202/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cuffdiff</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>d3ae7d9c2202</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/cuffquant/6dc45faebc1d/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cuffquant</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>6dc45faebc1d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cf747d1bd79a/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cuffmerge</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>cf747d1bd79a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/cuffcompare/e66b9b5b8580/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cuffcompare</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>e66b9b5b8580</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="sam_fa_indexes">
+        <columns>line_type, value, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/620d5603d1a8/sam_fa_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>htseq_count</repository_name>
+            <repository_owner>lparsons</repository_owner>
+            <installed_changeset_revision>620d5603d1a8</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="salmon_indexes">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/salmon/53e9709776a0/salmon_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>salmon</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>53e9709776a0</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="gene_sets">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/stringtie/76d290331481/gene_sets.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>stringtie</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>76d290331481</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gene_sets">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/featurecounts/e6a2a912677a/gene_sets.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>featurecounts</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>e6a2a912677a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/gffcompare/3c97c841a443/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>gffcompare</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>3c97c841a443</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="sailfish_indexes">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/bgruening/sailfish/a8f343909c17/sailfish_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>sailfish</repository_name>
+            <repository_owner>bgruening</repository_owner>
+            <installed_changeset_revision>a8f343909c17</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/freebayes/156b60c1530f/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>freebayes</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>156b60c1530f</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="snpeffv_genomedb">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/68693743661e/snpeffv_genomedb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>68693743661e</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="snpeffv_regulationdb">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/snpeff/68693743661e/snpeffv_regulationdb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>68693743661e</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken/b2392a9dfb01/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b2392a9dfb01</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_report/9ae975c30dde/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_report</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9ae975c30dde</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_filter/fe94f318048c/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_filter</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>fe94f318048c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_translate/b9971bca4b01/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_translate</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b9971bca4b01</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/b1bc53e9bbc5/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_fetch_genome_dbkeys_all_fasta</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b1bc53e9bbc5</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="__dbkeys__">
+        <columns>value, name, len_path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_fetch_genome_dbkeys_all_fasta/b1bc53e9bbc5/dbkeys.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_fetch_genome_dbkeys_all_fasta</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b1bc53e9bbc5</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/46066df8813d/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_bwa_mem_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>46066df8813d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bwa_mem_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bwa_mem_index_builder/46066df8813d/bwa_mem_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_bwa_mem_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>46066df8813d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/83da94c0e4a6/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_bowtie2_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>83da94c0e4a6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bowtie2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/83da94c0e4a6/bowtie2_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_bowtie2_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>83da94c0e4a6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="tophat2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_bowtie2_index_builder/83da94c0e4a6/tophat2_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_bowtie2_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>83da94c0e4a6</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/data_manager_hisat2_index_builder/d210e1f185bd/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_hisat2_index_builder</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>d210e1f185bd</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="hisat2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/data_manager_hisat2_index_builder/d210e1f185bd/hisat2_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_hisat2_index_builder</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>d210e1f185bd</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_gatk_picard_index_builder/b31f1fcb203c/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_gatk_picard_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b31f1fcb203c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="gatk_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_gatk_picard_index_builder/b31f1fcb203c/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_gatk_picard_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>b31f1fcb203c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_sam_fasta_index_builder/1865e693d8b2/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_sam_fasta_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>1865e693d8b2</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_sam_fasta_index_builder/1865e693d8b2/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_sam_fasta_index_builder</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>1865e693d8b2</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="snpeffv_genomedb">
+        <columns>key, version, value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/data_manager_snpeff/a6400027d849/snpeffv_genomedb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a6400027d849</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="snpeffv_regulationdb">
+        <columns>key, version, genome, value, name</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/data_manager_snpeff/a6400027d849/snpeffv_regulationdb.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a6400027d849</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="snpeffv_databases">
+        <columns>key, version, value, name</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/data_manager_snpeff/a6400027d849/snpeffv_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_snpeff</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a6400027d849</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_build_kraken_database/065d8a4d74f4/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>data_manager_build_kraken_database</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>065d8a4d74f4</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+# BEGIN ANSIBLE MANAGED BLOCK
+<table comment_char="#" name="gatk2_picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxyIndices/tool-data/dm/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_gatk_picard_index_builder/b31f1fcb203c/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>gatk2</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>84584664264c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="picard_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxyIndices/tool-data/dm/toolshed.g2.bx.psu.edu/repos/devteam/data_manager_gatk_picard_index_builder/b31f1fcb203c/gatk_sorted_picard_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>picard</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>fc288950c3b7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+# END ANSIBLE MANAGED BLOCK
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken/2fdac3e78553/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>2fdac3e78553</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_filter/5bee9adae474/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_filter</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>5bee9adae474</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_filter/5bee9adae474/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_filter</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>5bee9adae474</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_report/a3a7440fc618/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_report</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>a3a7440fc618</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="kraken_databases">
+        <columns>value, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/kraken_translate/9bdcba262627/kraken_databases.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>kraken_translate</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>9bdcba262627</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bowtie2_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/dc1639b66f12/bowtie2_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bowtie2</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>dc1639b66f12</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="bwa_mem_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/devteam/bwa/4f774c1e6049/bwa_mem_index.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bwa</repository_name>
+            <repository_owner>devteam</repository_owner>
+            <installed_changeset_revision>4f774c1e6049</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="sam_fa_indexes">
+        <columns>line_type, value, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/lparsons/htseq_count/f1368427a79c/sam_fa_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>htseq_count</repository_name>
+            <repository_owner>lparsons</repository_owner>
+            <installed_changeset_revision>f1368427a79c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table allow_duplicate_entries="False" comment_char="#" name="adapters">
+        <columns>value, name</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/lparsons/cutadapt/8665bcc8b847/adapters.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>cutadapt</repository_name>
+            <repository_owner>lparsons</repository_owner>
+            <installed_changeset_revision>8665bcc8b847</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="rnachipintegrator_canonical_genes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/pjbriggs/rnachipintegrator/b695071de766/rnachipintegrator_canonical_genes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>rnachipintegrator</repository_name>
+            <repository_owner>pjbriggs</repository_owner>
+            <installed_changeset_revision>b695071de766</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="rsem_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/jjohnson/rsem/14267d364365/rsem_indices.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>rsem</repository_name>
+            <repository_owner>jjohnson</repository_owner>
+            <installed_changeset_revision>14267d364365</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="all_fasta">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/circos/ef5f8bbf7730/all_fasta.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>circos</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>ef5f8bbf7730</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_dosage/0fe007201caf/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_dosage</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>0fe007201caf</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_merge/85ee7e6c4204/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_merge</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>85ee7e6c4204</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_concat/f430a1ec7ee4/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_concat</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>f430a1ec7ee4</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_call/b03984136ce4/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_call</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>b03984136ce4</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_tag2tag/0594ea1417c8/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_tag2tag</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>0594ea1417c8</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_impute_info/29ba253e2e05/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_impute_info</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>29ba253e2e05</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_counts/5ad5d4243987/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_counts</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5ad5d4243987</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_gtcheck/501bfb078342/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_gtcheck</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>501bfb078342</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_isec/c803c34361e0/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_isec</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c803c34361e0</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_mendelian/a367a15c6de5/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_mendelian</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a367a15c6de5</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_fixploidy/157ffcdd3fa7/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_fixploidy</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>157ffcdd3fa7</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_query/c9935c9e8a24/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_query</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>c9935c9e8a24</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_reheader/d43eb39b989e/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_reheader</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>d43eb39b989e</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_query_list_samples/adee7e8b746f/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_query_list_samples</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>adee7e8b746f</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_consensus/1829900b5dcd/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_consensus</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>1829900b5dcd</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_cnv/8408bffd5616/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_cnv</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>8408bffd5616</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_missing2ref/96d0145c041a/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_missing2ref</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>96d0145c041a</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_mpileup/9c711df3258d/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_mpileup</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>9c711df3258d</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_convert_from_vcf/92c0aff8b53e/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_convert_from_vcf</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>92c0aff8b53e</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_norm/a404f786a94c/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_norm</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>a404f786a94c</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_fill_tags/bca7ce81688f/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_fill_tags</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>bca7ce81688f</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_filter/963a3635b2e1/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_filter</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>963a3635b2e1</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_convert_to_vcf/1f2183a23823/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_convert_to_vcf</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>1f2183a23823</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_fill_an_ac/0a62420cb9cd/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_fill_an_ac</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>0a62420cb9cd</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_plugin_setgt/46eb13bc2c73/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_plugin_setgt</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>46eb13bc2c73</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_view/3a233c8eb814/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_view</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>3a233c8eb814</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_csq/7cbf3c66d4ad/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_csq</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>7cbf3c66d4ad</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_annotate/265fe0f9ea64/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_annotate</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>265fe0f9ea64</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_stats/b641062a2587/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_stats</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>b641062a2587</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+<table comment_char="#" name="fasta_indexes">
+        <columns>value, dbkey, name, path</columns>
+        <file path="/mnt/galaxy/custom-indices/tool-data/shed_tool_data/toolshed.g2.bx.psu.edu/repos/iuc/bcftools_roh/5296d26b0373/fasta_indexes.loc" />
+        <tool_shed_repository>
+            <tool_shed>toolshed.g2.bx.psu.edu</tool_shed>
+            <repository_name>bcftools_roh</repository_name>
+            <repository_owner>iuc</repository_owner>
+            <installed_changeset_revision>5296d26b0373</installed_changeset_revision>
+            </tool_shed_repository>
+    </table>
+</tables>

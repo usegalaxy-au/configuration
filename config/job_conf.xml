@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<job_conf>
+    <plugins>
+        <plugin id="slurm" type="runner" load="galaxy.jobs.runners.slurm:SlurmJobRunner"/>
+        <plugin id="pulsar_rest" type="runner" load="galaxy.jobs.runners.pulsar:PulsarRESTJobRunner"/>
+        <plugin id="local" type="runner" load="galaxy.jobs.runners.local:LocalJobRunner" workers="4"/>
+    </plugins>
+    <handlers>
+        <handler id="main.job-handlers.2"/>
+    </handlers>
+    <destinations default="slurm_1slot">
+        <!-- SLURM CPU Queues -->
+        <destination id="slurm_1slot" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=1 --ntasks-per-node=1 --mem=3880</param>
+        </destination>
+        <destination id="slurm_2slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=2 --ntasks-per-node=2 --mem=7760</param>
+        </destination>
+        <destination id="slurm_3slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=3 --ntasks-per-node=3 --mem=11640</param>
+        </destination>
+        <destination id="slurm_5slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=5 --ntasks-per-node=5 --mem=19400</param>
+        </destination>
+        <destination id="slurm_7slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=7 --ntasks-per-node=7 --mem=27160</param>
+        </destination>
+        <destination id="slurm_9slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=9 --ntasks-per-node=9 --mem=34920</param>
+        </destination>
+        <destination id="slurm_16slots" runner="slurm">
+            <param id="nativeSpecification">--nodes=1 --ntasks=16 --ntasks-per-node=16 --mem=62080</param>
+        </destination>
+        <destination id="pulsar_server" runner="pulsar_rest">
+            <param id="url">http://pulsar_server_ip:pulsar_server_port/</param>
+        </destination>
+        <destination id="local_runner" runner="local"/>
+    </destinations>
+    <tools>
+        <!-- <tool id="upload1" destination="local_runner" /> -->
+        <!-- <tool id="random_lines1" destination="pulsar_server" /> -->
+        <tool id="toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.36.4" destination="slurm_2slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/0.2.01" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/2.2.1.1" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/cufflinks/2.2.1.2" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/cuffdiff/2.2.1.5" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.1.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/jjohnson/rsem/rsem_calculate_expression/1.1.17" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.15.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.7.17.4" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.15.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.0.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.3.4.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/pjbriggs/macs21/macs2_1_peakcalling/2.1.1.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.1.20160309.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/tophat2/tophat2/2.1.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_recalibrator/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_unified_genotyper/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_print_reads/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_indel_realigner/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_eval/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_haplotype_caller/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_validate/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_reduce_reads/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_realigner_target_creator/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_depth_of_coverage/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_apply_recalibration/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_filtration/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_base_recalibrator/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_combine/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_select/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/gatk2/gatk2_variant_annotator/2.8.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/0.2.01" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.2.01" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/kraken/kraken/1.2.3" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/samtools_mpileup/samtools_mpileup/2.1.3" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/1.1.0.46-0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/simon-gladman/snippy/snippy/0.2.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.5.2b-1" destination="slurm_7slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/3.10.2" destination="slurm_7slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/0.2.01" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/0.2.01" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.2.01" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/1.1.0" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.4.0.0" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.11.1" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira4_assembler/mira_4_0_mapping/0.0.11" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira4_assembler/mira_4_0_bait/0.0.11" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira4_assembler/mira_4_0_de_novo/0.0.11" destination="slurm_16slots"/>
+        <!-- OLD TOOL RULES 
+        <tool id="toolshed.g2.bx.psu.edu/repos/pjbriggs/trimmomatic/trimmomatic/0.32.2" destination="slurm_2slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/0.1.07" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bowtie_wrappers/bowtie_wrapper/1.1.3" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cuffmerge/cuffmerge/2.2.1.0" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cufflinks/cufflinks/2.2.1.0" destination="slurm_3slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/cuffdiff/cuffdiff/2.2.1.2" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/hisat2/hisat2/2.0.3.2" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa/0.3.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.3.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/bowtie2/bowtie2/2.2.6.2" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2/2.1.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/pjbriggs/macs21/macs2_1_peakcalling/2.1.0-5" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/macs2/macs2_callpeak/2.1.0.20140616.0" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/tophat2/tophat2/0.9" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastn_wrapper/0.1.07" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastp_wrapper/0.1.07" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/samtools_mpileup/samtools_mpileup/2.1.1" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/freebayes/freebayes/0.3" destination="slurm_5slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.4.0d" destination="slurm_7slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/rgrnastar/rna_star/2.4.0d-2" destination="slurm_7slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/iuc/roary/roary/0.1.0" destination="slurm_7slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/0.1.07" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/0.1.07" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.1.07" destination="slurm_16slots"/>
+        <tool id="testtoolshed.g2.bx.psu.edu/repos/jjohnson/trinityrnaseq/trinityrnaseq_norm/0.0.2" destination="slurm_16slots"/>
+        <tool id="testtoolshed.g2.bx.psu.edu/repos/jjohnson/trinityrnaseq/trinityrnaseq/0.0.2" destination="slurm_16slots"/>
+        <tool id="testtoolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/1.1.0" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/lionelguy/spades/spades/1.0" destination="slurm_16slots"/>
+        <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira_assembler/mira_assembler/0.0.11" destination="slurm_16slots"/>
+        -->
+    </tools>
+    <limits>
+        <limit type="anonymous_user_concurrent_jobs">1</limit>
+        <limit type="registered_user_concurrent_jobs">12</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_2slots">8</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_3slots">6</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_5slots">6</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_7slots">2</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_9slots">2</limit>
+        <limit type="destination_user_concurrent_jobs" id="slurm_16slots">1</limit>
+    </limits>   
+</job_conf>
+

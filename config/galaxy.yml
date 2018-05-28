@@ -1,0 +1,242 @@
+uwsgi:
+
+  socket: /var/lib/galaxy/uwsgi.sock
+
+  # Number of web server (worker) processes to fork after the
+  # application has loaded.
+  processes: 2
+
+  # Number of threads for each web server process.
+  threads: 6
+
+  # The entry point which returns the web application (e.g. Galaxy,
+  # Reports, etc.) that you are loading.
+  module: galaxy.webapps.galaxy.buildapp:uwsgi_app()
+
+  # Path to the application's Python virtual environment.
+  virtualenv: /mnt/galaxy/galaxy-app/.venv
+
+  # Path to the application's Python library.
+  pythonpath: lib
+
+  # Mapping to serve style content.
+  #static-map: /mnt/galaxy/galaxy-app/static/style/blue=static/style/blue
+
+  # Mapping to serve the remainder of the static content.
+  #static-map: /mnt/galaxy/galaxy-app/static=static
+
+  # Enable the master process manager. Disabled by default for maximum
+  # compatibility with CTRL+C, but should be enabled for use with
+  # --daemon and/or production deployments.
+  master: true
+
+  # Cause uWSGI to respect the traditional behavior of dying on SIGTERM
+  # (its default is to brutally reload workers)
+  die-on-term: true
+
+  # Cause uWSGI to gracefully reload workers and mules upon receipt of
+  # SIGINT (its default is to brutally kill workers)
+  hook-master-start: unix_signal:2 gracefully_kill_them_all
+
+  # Cause uWSGI to gracefully reload workers and mules upon receipt of
+  # SIGTERM (its default is to brutally kill workers)
+  hook-master-start: unix_signal:15 gracefully_kill_them_all
+
+  # Feature necessary for proper mule signal handling
+  py-call-osafterfork: true
+
+  # Ensure application threads will run if `threads` is unset.
+  enable-threads: true
+
+  # Logging
+  logto: /var/log/galaxy/uwsgi.log
+  logfile-chmod: 644
+
+  # job handling options
+  mule: lib/galaxy/main.py
+  mule: lib/galaxy/main.py
+  farm: job-handlers:1,2
+
+
+galaxy:
+
+  log_level: 'TRACE'
+
+  new_file_path: /mnt/galaxy/tmp
+
+  data_manager_config_file: /mnt/galaxy/galaxy-app/config/data_manager_conf.xml.sample
+
+  citation_cache_lock_dir: /mnt/galaxy/galaxy-app/database/citations/locks
+
+  template_cache_path: /mnt/galaxy/galaxy-app/database/template_cache
+
+  whoosh_index_dir: /mnt/galaxy/galaxy-app/database/whoosh_cache
+
+  id_secret: 9b6589ba5b33a48dd4c3d01b59373e8c
+
+  admin_users: 'd.benson@uq.edu.au,i.makunin@uq.edu.au,bpa@ccg.murdoch.edu.au,simon.gladman@unimelb.edu.au'
+
+  allow_user_impersonation: true
+
+  job_working_directory: /mnt/galaxy/tmp/job_working_directory
+
+  citation_cache_data_dir: /mnt/galaxy/galaxy-app/database/citations/data
+
+  openid_consumer_cache_path: /mnt/galaxy/galaxy-app/database/openid_consumer_cache
+
+  shed_data_manager_config_file: /mnt/galaxy/var/shed_data_manager_conf.xml
+
+  object_store_cache_path: /mnt/galaxy/galaxy-app/database/object_store_cache
+
+  openid_config_file: /mnt/galaxy/galaxy-app/config/openid_conf.xml.sample
+
+  integrated_tool_panel_config: /mnt/galaxy/var/integrated_tool_panel.xml
+
+  retry_job_output_collection: 10
+
+  allow_path_paste: true
+
+  database_connection: 'postgres://galaxy@localhost:5950/galaxy'
+
+  ucsc_display_sites: 'main,test,archaea,ucla'
+
+  nginx_upload_path: /_upload
+
+  conda_prefix: /mnt/galaxy/tool_dependencies/_conda
+
+  static_images_dir: /mnt/galaxy/galaxy-app/static/images
+
+  dynamic_proxy_prefix: galaxy/gie_proxy
+
+  hearbeat_log: '/mnt/galaxy/tmp/heartbeat_{server_name}.log'
+
+  dynamic_proxy_external_proxy: true
+
+  expose_dataset_path: true
+
+  static_robots_txt: /mnt/galaxy/galaxy-app/static/robots.txt
+
+  allow_user_deletion: true
+
+  enable_unique_workflow_defaults: true
+
+  tool_config_file: '/mnt/galaxy/galaxy-app/config/tool_conf.xml,/mnt/galaxy/galaxy-app/config/shed_tool_conf.xml,/mnt/galaxy/galaxy-app/config/nagios_tool_conf.xml'
+
+  use_pbkdf2: 'False'
+
+  database_engine_option_max_overflow: 50
+
+  static_dir: /mnt/galaxy/galaxy-app/static/
+
+  database_engine_option_pool_size: 20
+
+  smtp_server: localhost
+
+  error_email_to: <help@genome.edu.au>
+
+  email_from: <galaxy-no-reply@usegalaxy.org.au>
+
+  support_url: 'https://genome.edu.au/help'
+
+  message_box_visible: true
+
+  message_box_content: "You are now connected to the new usegalaxy.org.au service. If you are an existing user and this is your first time accessing the new version of Galaxy then you must log in again with your username and password."
+
+  tool_dependency_dir: /mnt/galaxy/tools
+
+  set_metadata_externally: 'True'
+
+  static_scripts_dir: /mnt/galaxy/galaxy-app/static/scripts/
+
+  retry_metadata_internally: true
+
+  migrated_tools_config: /mnt/galaxy/var/migrated_tools_conf.xml
+
+  nginx_upload_store: /mnt/galaxy/upload_store
+
+  cluster_files_directory: /mnt/galaxy/tmp/pbs
+
+  tool_data_table_config_path: '/mnt/galaxy/galaxy-app/config/tool_data_table_conf.xml,/cvmfs/data.galaxyproject.org/managed/location/tool_data_table_conf.xml'
+
+  dynamic_proxy_debug: true
+
+  ftp_upload_dir: /mnt/galaxy/tmp/ftp
+
+  enable_quotas: true
+
+  galaxy_data_manager_data_path: /mnt/galaxy/custom-indices
+
+  enable_openid: true
+
+  brand: Australia
+
+  dynamic_proxy_manage: false
+
+  database_engine_option_server_side_cursors: true
+
+  builds_file_path: /mnt/galaxy/galaxy-app/tool-data/shared/ucsc/builds.txt
+
+  conda_auto_install: true
+
+  collect_outputs_from: job_working_directory
+
+  enable_job_recovery: true
+
+  static_favicon_dir: /mnt/galaxy/galaxy-app/static/favicon.ico
+
+  nginx_x_accel_redirect_base: /_x_accel_redirect
+
+  shed_tool_data_table_config: /mnt/galaxy/var/shed_tool_data_table_conf.xml
+
+  install_database_connection: 'sqlite:////mnt/galaxy/var/galaxy_install_db.sqlite?isolation_level=IMMEDIATE'
+
+  database_engine_option_strategy: threadlocal
+
+  rsync_url: 'rsync://scofield.bx.psu.edu/indexes'
+
+  conda_auto_init: true
+
+  tool_sheds_config_file: /mnt/galaxy/galaxy-app/config/tool_sheds_conf.xml
+
+  outputs_to_working_directory: false
+
+  track_jobs_in_database: true
+
+  interactive_environment_plugins_directory: config/plugins/interactive_environments
+
+  use_heartbeat: true
+
+  allow_user_dataset_purge: true
+
+  shed_tool_data_path: /mnt/galaxy/custom-indices/tool-data/shed_tool_data
+
+  heartbeat_interval: -1
+
+  visualization_plugins_directory: config/plugins/visualizations
+
+  file_path: /mnt/galaxy/files
+
+  datatypes_config_file: /mnt/galaxy/galaxy-app/config/datatypes_conf.xml.sample
+
+  ucsc_build_sites: /mnt/galaxy/galaxy-app/tool-data/shared/ucsc/ucsc_build_sites.txt
+
+  conda_ensure_channels: 'iuc,bioconda,conda-forge,defaults,r'
+
+  library_import_dir: /mnt/galaxy/tmp/library_import_dir
+
+  conda_debug: true
+
+  cleanup_job: onsuccess
+
+  len_file_path: /mnt/galaxy/galaxy-app/tool-data/len
+
+  static_enabled: true
+
+  ftp_upload_site: 203.101.224.120
+
+  statsd_host: localhost
+  
+  statsd_port: 8125
+  
+  statsd_prefix: galaxy-aust
+

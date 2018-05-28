@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<job_metrics>
+  <core />
+  <cpuinfo />
+  <meminfo />
+  <env variables="HOSTNAME,SLURM_CPUS_ON_NODE,SLURM_JOBID" />
+</job_metrics>

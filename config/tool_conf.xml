@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <toolbox monitor="true">
+  <label id="file_and_meta_tools" text="FILE AND META TOOLS" />
   <section id="getext" name="Get Data">
     <tool file="data_source/upload.xml" />
     <tool file="data_source/ucsc_tablebrowser.xml" />
@@ -30,6 +31,22 @@
   <section id="send" name="Send Data">
     <tool file="genomespace/genomespace_exporter.xml" />
   </section>
+  <section id="convert" name="Convert Formats">
+    <tool file="filters/axt_to_concat_fasta.xml" />
+    <tool file="filters/axt_to_fasta.xml" />
+    <tool file="filters/axt_to_lav.xml" />
+    <tool file="filters/bed2gff.xml" />
+    <tool file="filters/gff2bed.xml" />
+    <tool file="filters/lav_to_bed.xml" />
+    <tool file="maf/maf_to_bed.xml" />
+    <tool file="maf/maf_to_interval.xml" />
+    <tool file="maf/maf_to_fasta.xml" />
+    <tool file="filters/wiggle_to_simple.xml" />
+    <tool file="filters/sff_extractor.xml" />
+    <tool file="filters/gtf2bedgraph.xml" />
+    <tool file="filters/wig_to_bigwig.xml" />
+    <tool file="filters/bed_to_bigbed.xml" />
+  </section>
   <section id="collection_operations" name="Collection Operations">
     <tool file="${model_tools_path}/unzip_collection.xml" />
     <tool file="${model_tools_path}/zip_collection.xml" />
@@ -43,6 +60,7 @@
   <section id="liftOver" name="Lift-Over">
     <tool file="extract/liftOver_wrapper.xml" />
   </section>
+  <label id="general_text_tools" text="GENERAL TEXT TOOLS" />
   <section id="textutil" name="Text Manipulation">
     <tool file="filters/fixedValueColumn.xml" />
     <tool file="filters/catWrapper.xml" />
@@ -65,7 +83,6 @@
     <tool file="stats/filtering.xml" />
     <tool file="filters/sorter.xml" />
     <tool file="filters/grep.xml" />
-    
     <label id="gff" text="GFF" />
     <tool file="filters/gff/extract_GFF_Features.xml" />
     <tool file="filters/gff/gff_filter_by_attribute.xml" />
@@ -77,22 +94,7 @@
     <tool file="filters/compare.xml" />
     <tool file="stats/grouping.xml" />
   </section>
-  <section id="convert" name="Convert Formats">
-    <tool file="filters/axt_to_concat_fasta.xml" />
-    <tool file="filters/axt_to_fasta.xml" />
-    <tool file="filters/axt_to_lav.xml" />
-    <tool file="filters/bed2gff.xml" />
-    <tool file="filters/gff2bed.xml" />
-    <tool file="filters/lav_to_bed.xml" />
-    <tool file="maf/maf_to_bed.xml" />
-    <tool file="maf/maf_to_interval.xml" />
-    <tool file="maf/maf_to_fasta.xml" />
-    <tool file="filters/wiggle_to_simple.xml" />
-    <tool file="filters/sff_extractor.xml" />
-    <tool file="filters/gtf2bedgraph.xml" />
-    <tool file="filters/wig_to_bigwig.xml" />
-    <tool file="filters/bed_to_bigbed.xml" />
-  </section>
+  <label id="common_genomics" text="Common Genomics Tools" />
   <section id="features" name="Extract Features">
     <tool file="filters/ucsc_gene_bed_to_exon_bed.xml" />
   </section>
@@ -113,6 +115,9 @@
     <tool file="maf/maf_reverse_complement.xml" />
     <tool file="maf/maf_filter.xml" />
   </section>
+  <label id="specific_genomics" text="Genomics Analysis" />
+  <label id="metagenomics_tools" text="METAGENOMICS" />
+  <label id="statistics_and_visualisation" text="STATISTICS AND VISUALISATION" version="" />
   <section id="stats" name="Statistics">
     <tool file="stats/gsummary.xml" />
     <tool file="filters/uniq.xml" />

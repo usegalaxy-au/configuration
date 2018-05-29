@@ -82,7 +82,7 @@
         <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_blastx_wrapper/0.2.01" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/0.2.01" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.2.01" destination="slurm_16slots"/>
-        <tool id="toolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/1.1.0" destination="slurm_16slots"/>
+        <tool id="testtoolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/1.1.0" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/iuc/trinity/trinity/2.4.0.0" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/nml/spades/spades/3.11.1" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira4_assembler/mira_4_0_mapping/0.0.11" destination="slurm_16slots"/>
@@ -115,7 +115,6 @@
         <tool id="toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastx_wrapper/0.1.07" destination="slurm_16slots"/>
         <tool id="testtoolshed.g2.bx.psu.edu/repos/jjohnson/trinityrnaseq/trinityrnaseq_norm/0.0.2" destination="slurm_16slots"/>
         <tool id="testtoolshed.g2.bx.psu.edu/repos/jjohnson/trinityrnaseq/trinityrnaseq/0.0.2" destination="slurm_16slots"/>
-        <tool id="testtoolshed.g2.bx.psu.edu/repos/simon-gladman/velvetoptimiser/velvetoptimiser/1.1.0" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/lionelguy/spades/spades/1.0" destination="slurm_16slots"/>
         <tool id="toolshed.g2.bx.psu.edu/repos/peterjc/mira_assembler/mira_assembler/0.0.11" destination="slurm_16slots"/>
         -->
